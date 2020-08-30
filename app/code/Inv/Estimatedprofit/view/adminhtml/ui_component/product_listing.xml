@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+        <columns name="product_columns">
+               <column name="estimated_profit" class="Inv\Estimatedprofit\Ui\Component\Listing\Columns\Estimatedprofit" sortOrder="10">
+                      <settings>
+                            <addField>true</addField>
+                            <sortable>true</sortable>
+                            <label translate="true">Estimated Profit</label>
+                     </settings>
+               </column>
+         </columns>
+</listing>

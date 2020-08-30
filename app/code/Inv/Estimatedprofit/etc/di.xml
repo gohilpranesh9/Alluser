@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">    
+   <type name="Magento\Catalog\Controller\Adminhtml\Product\Save">
+       <plugin name="EstimatedProfitCalculate" type="Inv\Estimatedprofit\Plugin\Product\EstimatedProfitCalculate" sortOrder="10" disabled="false"/>
+   </type>
+
+   	<!-- <type name="Magento\Catalog\Ui\DataProvider\Product\ProductDataProvider">
+      	<arguments>
+           	<argument name="addFieldStrategies" xsi:type="array">
+                <item name="estimated_profit1" xsi:type="object">Inv\Estimatedprofit\Ui\DataProvider\Product\AddEstimatedProfit1Field</item>
+           	</argument>
+     	</arguments>
+ 	</type> -->
+</config>
